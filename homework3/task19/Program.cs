@@ -23,7 +23,7 @@ else if (IntNumb != Palindrom)
 {
     Console.WriteLine($"{number} - Нееее, это число - НЕ палиндром!");
 }
-// else (9999 < IntNumb && IntNumb < 100000);
+// else (IntNumb < 10000 || IntNumb > 99999);
 // {
 //     Console.WriteLine($"ОШИБКА: {number} - данное число не является пятизначным");
 // }
