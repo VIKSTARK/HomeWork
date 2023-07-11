@@ -2,7 +2,7 @@
 0, 7, 8, -2, -2 -> 2
 1, -7, 567, 89, 223-> 3*/
 
-﻿Console.WriteLine("Введите количество чисел:");
+Console.WriteLine("Введите количество чисел:");
 int num = Convert.ToInt32(Console.ReadLine());
 int m = 0;
 int count = 0;
