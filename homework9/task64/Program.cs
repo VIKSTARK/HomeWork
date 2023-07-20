@@ -5,12 +5,10 @@
 
 Console.WriteLine("Введите натуральное число N");
 int n = Convert.ToInt32(Console.ReadLine());
-
 int NaturalNumbers(int n, int m)
 {
   if (n == m) return n;
   else Console.Write($"{NaturalNumbers(n, m + 1)}, ");
   return m;
 }
-
 Console.WriteLine(NaturalNumbers(n, 1));
